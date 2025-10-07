@@ -1,0 +1,76 @@
+[
+  {
+    "id": "s1467",
+    "imageSrc": "https://media.istockphoto.com/id/1092276718/photo/half-opened-door-into-the-cozy-home-interior.jpg?s=612x612&w=0&k=20&c=h-AE8UJt-xndL7byvCPZrVObWUc0nOzdLkEICYdzm7c=",
+    "title": "S.1467 – Homebuyers Privacy Protection Act",
+    "summary": "A bill to amend the Fair Credit Reporting Act to prevent consumer reporting agencies from furnishing consumer reports under certain circumstances, and for other purposes.",
+    "status": "Received in the House.",
+    "sponsor": "Sen. Jack Reed (D-RI)",
+    "details": "The Homebuyers Privacy Protection Act (S. 1467) aims to stop the barrage of unsolicited calls, texts, and emails that consumers receive after applying for a mortgage. This bill targets a practice known as 'trigger leads,' where credit bureaus sell a consumer's information to other lenders the moment a credit inquiry is made. The bill, which passed the Senate by unanimous consent, seeks to protect consumer privacy while preserving competition in the mortgage market.",
+    "pros": [
+      "The bill has broad support from the mortgage industry itself, including lenders, brokers, and trade groups who argue trigger leads create a bad experience for both consumers and professionals.",
+      "Large Bipartisan Support",
+      "Stops predatory and unsolicited contact from other lenders, protecting a consumer's privacy during a stressful time.",
+      "Establishes a precedent for federal data privacy protection in financial services, which could lead to similar policies for other industries."
+    ],
+    "cons": [
+      "Opponents argue that trigger leads increase competition among lenders. When lenders can see a consumer has applied for a loan, they often proactively offer a lower rate to win the customer's business. Restricting this practice could reduce competitive pressure, potentially leading to fewer options and higher interest rates for some borrowers.",
+      "Some argue that trigger leads give consumers more options for comparing offers and finding the best deal, even if the process is inconvenient.",
+      "Prescreened offers can sometimes make the application process more efficient, and the bill could limit these opportunities for consumers."
+    ]
+  },
+  {
+    "id": "s394",
+    "imageSrc": "assets/sb1.jpg",
+    "title": "S.394 – GENIUS Act of 2025",
+    "summary": "A bill to foster national innovation and entrepreneurship. (Placeholder summary text.)",
+    "status": "Referred to Senate Banking Committee",
+    "sponsor": "Sen. Bill Hagerty [R-TN]",
+    "details": "The GENIUS Act aims to boost federal investment in startups, increase STEM education funding, and provide competitive grants to universities focusing on next-gen research. It emphasizes public-private partnerships and aims to ensure American leadership in critical technologies.",
+    "pros": [
+      "Increase federal funding for STEM innovation",
+      "Help universities lead next-gen research",
+      "Strengthen American tech competitiveness",
+      "Create jobs through public-private partnerships"
+    ],
+    "cons": [
+      "Favor large institutions over small innovators",
+      "Increase federal spending without clear ROI",
+      "Overstep into private market dynamics",
+      "Lack accountability in grant distribution"
+    ]
+  },
+  {
+    "id": "s1515",
+    "imageSrc": "https://media.istockphoto.com/id/1567314187/photo/aerial-neighborhood-with-bright-green-summer-lawns.jpg?s=612x612&w=0&k=20&c=zI9TeApNZxcLEAE48kIEAjl6TxiSFdKt1uXhUxUQt3w=",
+    "title": "S.1515 – Affordable Housing Credit Improvement Act of 2025",
+    "summary": "A bill to amend the Internal Revenue Code of 1986 to reform the low-income housing credit, and for other purposes.",
+    "status": "Introduced in Senate",
+    "sponsor": "Sen. Todd Young (R-IN)",
+    "details": "COMING SOON",
+    "pros": ["COMING SOON", "COMING SOON"],
+    "cons": ["COMING SOON", "COMING SOON"]
+  },
+  {
+    "id": "s1561",
+    "imageSrc": "https://media.istockphoto.com/id/1140374970/photo/real-estate-broker-explain-contract-investment-before-signing-a-contract-housing-estate-in.jpg?s=612x612&w=0&k=20&c=DC0caZ0YPse9nnnuQcq5GlPrTfUFArICrFtkdP84vWI=",
+    "title": "S.1561 – SECURE Notarization Act of 2025",
+    "summary": "A bill to authorize notaries public to perform, and to establish minimum standards for, electronic notarizations and remote notarizations that occur in or affect interstate commerce, to require any Federal court to recognize notarizations performed by a notarial officer of any State",
+    "status": "Introduced in Senate",
+    "sponsor": "Sen. Kevin Cramer (R-ND)",
+    "details": "COMING SOON",
+    "pros": ["COMING SOON", "COMING SOON"],
+    "cons": ["COMING SOON", "COMING SOON"]
+  },
+  {
+    "id": "s1527",
+    "imageSrc": "assets/sb2.jpg",
+    "title": "S.1527 – Housing Affordability Act",
+    "summary": "This bill proposes to modify the multifamily loan limits under title II of the National Housing Act.",
+    "status": "As of June 29, 2025, the bill was introduced and referred to the Committee on Banking, Housing, and Urban Affairs.",
+    "sponsor": "Sen. Ruben Gallego [D-AZ]",
+    "details": "This bill modifies the multifamily loan limits under the National Housing Act. Currently in early stages.",
+    "pros": ["Endorsed by Mortgage Banking Association", "More details pending research"],
+    "cons": ["Research coming soon"]
+  }
+]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScrollCall</title>
+  <meta name="description" content="View active Senate bills and take civic action.">
+  <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/stylesheet/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ 
+<header class="site-header">
+  <div class="header-inner">
+    <img src="assets/logo.png" alt="ScrollCall Logo" class="logo">
+    <div id="menu-toggle" class="nav-toggle">&#9776;</div>
+    <nav class="nav-links" id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="representatives.html">Your Representatives</a>
+      <a href="bills.html">Senate Bill Feed</a>
+    </nav>
+  </div>
+</header>
+
+<main class="content">
+  <section class="about">
+    <h2>What is ScrollCall?</h2>
+    <p>
+      ScrollCall is a civic tool that helps you stay informed and take action on real legislation. We make it effortless to share your stance with your senator's office and their staffers who influence them, so your voice is heard where it counts!
+      <br>
+      Your opinion should not get lost in a contact form. ScrollCall helps you share your voice with the right people faster.
+    </p>
+  </section>
+  
+  <section class="section-divider">
+    <h2>🗳️ Bills You Can Act On</h2>
+    <p>Explore current bills and send your message directly to the senator's office and the staffers who shape what your senators see.</p>
+    <div class="bill-filter">
+      <label for="bill-filter-dropdown">Filter by Bill:</label>
+      <select id="bill-filter-dropdown">
+      </select>
+    </div>
+  </section>
+
+  <div id="bill-container"></div>
+
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 ScrollCall. All rights reserved.</p>
+</footer>
+
+<div id="email-modal" class="modal hidden">
+  <div class="modal-content">
+    <h2>How would you like to send your message?</h2>
+    <div class="modal-buttons">
+      <button id="mail-app-btn">Send via Mail App</button>
+      <button id="gmail-btn">Send via Gmail (Web)</button>
+      <button id="yahoo-btn">Send via Yahoo (Web)</button>
+      <button id="copy-btn">Copy Message to Clipboard</button>
+    </div>
+    <button id="cancel-modal">Cancel</button>
+  </div>
+</div>
+
+<script type="module" src="main.js"></script>
+<script type="module" src="ai.js"></script>
+</body>
+</html>

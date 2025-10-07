@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScrollCall</title>
+  <meta name="description" content="View active Senate bills and take civic action.">
+  <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/stylesheet/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ 
+<header class="site-header">
+  <div class="header-inner">
+    <img src="assets/logo.png" alt="ScrollCall Logo" class="logo">
+
+    <!-- Hamburger icon BELOW the logo -->
+    <div id="menu-toggle" class="nav-toggle">&#9776;</div>
+
+    <!-- Nav menu -->
+    <nav class="nav-links" id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="representatives.html">Your Representatives</a>
+      <a href="bills.html">Senate Bill Feed</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="rep-preview-section">
+  <h2 class="rep-preview-header">Contact Your Senator</h2>
+  <p class="rep-preview-subtext">We're working on improving this page and updating the functionality!</p>
+  </section>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('senatorSearch');
+    const rows = document.querySelectorAll('table tbody tr');
+
+    searchInput.addEventListener('input', function () {
+      const query = searchInput.value.toLowerCase();
+
+      rows.forEach(row => {
+        const cells = row.querySelectorAll('td');
+        const match = Array.from(cells).some(cell =>
+          cell.textContent.toLowerCase().includes(query)
+        );
+
+        row.style.display = match ? '' : 'none';
+      });
+    });
+  });
+</script>
+
+
+  <div class="floating-search">
+  <input type="text" id="senatorSearch" placeholder="Search by name, state, or party...">
+</div>
+
+  
+
+  <table>
+    <thead>
+      <tr>
+        <th>Website</th>
+        <th>State</th>
+        <th>Party</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+
+<tr>
+    <td><a href="https://www.murkowski.senate.gov/" target="_blank">Lisa Murkowski</a></td>
+    <td>AK</td>
+    <td>Republican</td>
+    <td>(202) 224-6665</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.sullivan.senate.gov/" target="_blank">Dan Sullivan</a></td>
+    <td>AK</td>
+    <td>Republican</td>
+    <td>(202) 224-3004</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.britt.senate.gov/" target="_blank">Katie Britt</a></td>
+    <td>AL</td>
+    <td>Republican</td>
+    <td>(202) 224-5744</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.tuberville.senate.gov/" target="_blank">Tommy Tuberville</a></td>
+    <td>AL</td>
+    <td>Republican</td>
+    <td>(202) 224-4124</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.boozman.senate.gov/" target="_blank">John Boozman</a></td>
+    <td>AR</td>
+    <td>Republican</td>
+    <td>(202) 224-4843</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.cotton.senate.gov/" target="_blank">Tom Cotton</a></td>
+    <td>AR</td>
+    <td>Republican</td>
+    <td>(202) 224-2353</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.gallego.senate.gov/" target="_blank">Ruben Gallego</a></td>
+    <td>AZ</td>
+    <td>Democratic</td>
+    <td>(202) 224-4521</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.kelly.senate.gov/" target="_blank">Mark Kelly</a></td>
+    <td>AZ</td>
+    <td>Democratic</td>
+    <td>(202) 224-2235</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.padilla.senate.gov/" target="_blank">Alex Padilla</a></td>
+    <td>CA</td>
+    <td>Democratic</td>
+    <td>(202) 224-3553</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.schiff.senate.gov/" target="_blank">Adam Schiff</a></td>
+    <td>CA</td>
+    <td>Democratic</td>
+    <td>(202) 224-3841</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.bennet.senate.gov/" target="_blank">Michael Bennet</a></td>
+    <td>CO</td>
+    <td>Democratic</td>
+    <td>(202) 224-5852</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.hickenlooper.senate.gov/" target="_blank">John Hickenlooper</a></td>
+    <td>CO</td>
+    <td>Democratic</td>
+    <td>(202) 224-5941</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.blumenthal.senate.gov/" target="_blank">Richard Blumenthal</a></td>
+    <td>CT</td>
+    <td>Democratic</td>
+    <td>(202) 224-2823</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.murphy.senate.gov/" target="_blank">Christopher Murphy</a></td>
+    <td>CT</td>
+    <td>Democratic</td>
+    <td>(202) 224-4041</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.bluntrochester.senate.gov/" target="_blank">Lisa Blunt Rochester</a></td>
+    <td>DE</td>
+    <td>Democratic</td>
+    <td>(202) 224-2441</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.coons.senate.gov/" target="_blank">Christopher Coons</a></td>
+    <td>DE</td>
+    <td>Democratic</td>
+    <td>(202) 224-5042</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.moody.senate.gov/" target="_blank">Ashley Moody</a></td>
+    <td>FL</td>
+    <td>Republican</td>
+    <td>(202) 224-3041</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.rickscott.senate.gov/" target="_blank">Rick Scott</a></td>
+    <td>FL</td>
+    <td>Republican</td>
+    <td>(202) 224-5274</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.ossoff.senate.gov/" target="_blank">Jon Ossoff</a></td>
+    <td>GA</td>
+    <td>Democratic</td>
+    <td>(202) 224-3521</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.warnock.senate.gov/" target="_blank">Raphael Warnock</a></td>
+    <td>GA</td>
+    <td>Democratic</td>
+    <td>(202) 224-3643</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.hirono.senate.gov/" target="_blank">Mazie Hirono</a></td>
+    <td>HI</td>
+    <td>Democratic</td>
+    <td>(202) 224-6361</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.schatz.senate.gov/" target="_blank">Brian Schatz</a></td>
+    <td>HI</td>
+    <td>Democratic</td>
+    <td>(202) 224-3934</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.ernst.senate.gov/" target="_blank">Joni Ernst</a></td>
+    <td>IA</td>
+    <td>Republican</td>
+    <td>(202) 224-3254</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.grassley.senate.gov/" target="_blank">Chuck Grassley</a></td>
+    <td>IA</td>
+    <td>Republican</td>
+    <td>(202) 224-3744</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.crapo.senate.gov/" target="_blank">Mike Crapo</a></td>
+    <td>ID</td>
+    <td>Republican</td>
+    <td>(202) 224-6142</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.risch.senate.gov/" target="_blank">James Risch</a></td>
+    <td>ID</td>
+    <td>Republican</td>
+    <td>(202) 224-2752</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.duckworth.senate.gov/" target="_blank">Tammy Duckworth</a></td>
+    <td>IL</td>
+    <td>Democratic</td>
+    <td>(202) 224-2854</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.durbin.senate.gov/" target="_blank">Richard Durbin</a></td>
+    <td>IL</td>
+    <td>Democratic</td>
+    <td>(202) 224-2152</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.banks.senate.gov/" target="_blank">Jim Banks</a></td>
+    <td>IN</td>
+    <td>Republican</td>
+    <td>(202) 224-4814</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.young.senate.gov/" target="_blank">Todd Young</a></td>
+    <td>IN</td>
+    <td>Republican</td>
+    <td>(202) 224-5623</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.marshall.senate.gov/" target="_blank">Roger Marshall</a></td>
+    <td>KS</td>
+    <td>Republican</td>
+    <td>(202) 224-4774</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.moran.senate.gov/" target="_blank">Jerry Moran</a></td>
+    <td>KS</td>
+    <td>Republican</td>
+    <td>(202) 224-6521</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.mcconnell.senate.gov/" target="_blank">Mitch McConnell</a></td>
+    <td>KY</td>
+    <td>Republican</td>
+    <td>(202) 224-2541</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.paul.senate.gov/" target="_blank">Rand Paul</a></td>
+    <td>KY</td>
+    <td>Republican</td>
+    <td>(202) 224-4343</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.cassidy.senate.gov/" target="_blank">Bill Cassidy</a></td>
+    <td>LA</td>
+    <td>Republican</td>
+    <td>(202) 224-5824</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.kennedy.senate.gov/" target="_blank">John Kennedy</a></td>
+    <td>LA</td>
+    <td>Republican</td>
+    <td>(202) 224-4623</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.markey.senate.gov/" target="_blank">Edward Markey</a></td>
+    <td>MA</td>
+    <td>Democratic</td>
+    <td>(202) 224-2742</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.warren.senate.gov/" target="_blank">Elizabeth Warren</a></td>
+    <td>MA</td>
+    <td>Democratic</td>
+    <td>(202) 224-4543</td>
+  </tr>
+  <tr>
+    <td><a href="https://alsobrooks.senate.gov/" target="_blank">Angela Alsobrooks</a></td>
+    <td>MD</td>
+    <td>Democratic</td>
+    <td>(202) 224-4524</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.vanhollen.senate.gov/" target="_blank">Chris Van Hollen</a></td>
+    <td>MD</td>
+    <td>Democratic</td>
+    <td>(202) 224-4654</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.collins.senate.gov/" target="_blank">Susan Collins</a></td>
+    <td>ME</td>
+    <td>Republican</td>
+    <td>(202) 224-2523</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.king.senate.gov/" target="_blank">Angus King</a></td>
+    <td>ME</td>
+    <td>Independent</td>
+    <td>(202) 224-5344</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.peters.senate.gov/" target="_blank">Gary Peters</a></td>
+    <td>MI</td>
+    <td>Democratic</td>
+    <td>(202) 224-6221</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.slotkin.senate.gov/" target="_blank">Elissa Slotkin</a></td>
+    <td>MI</td>
+    <td>Democratic</td>
+    <td>(202) 224-4822</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.klobuchar.senate.gov/" target="_blank">Amy Klobuchar</a></td>
+    <td>MN</td>
+    <td>Democratic</td>
+    <td>(202) 224-3244</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.smith.senate.gov/" target="_blank">Tina Smith</a></td>
+    <td>MN</td>
+    <td>Democratic</td>
+    <td>(202) 224-5641</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.hawley.senate.gov/" target="_blank">Josh Hawley</a></td>
+    <td>MO</td>
+    <td>Republican</td>
+    <td>(202) 224-6154</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.schmitt.senate.gov/" target="_blank">Eric Schmitt</a></td>
+    <td>MO</td>
+    <td>Republican</td>
+    <td>(202) 224-5721</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.hydesmith.senate.gov/" target="_blank">Cindy Hyde-Smith</a></td>
+    <td>MS</td>
+    <td>Republican</td>
+    <td>(202) 224-5054</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.wicker.senate.gov/" target="_blank">Roger Wicker</a></td>
+    <td>MS</td>
+    <td>Republican</td>
+    <td>(202) 224-6253</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.daines.senate.gov/" target="_blank">Steve Daines</a></td>
+    <td>MT</td>
+    <td>Republican</td>
+    <td>(202) 224-2651</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.sheehy.senate.gov/" target="_blank">Tim Sheehy</a></td>
+    <td>MT</td>
+    <td>Republican</td>
+    <td>(202) 224-2644</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.budd.senate.gov/" target="_blank">Ted Budd</a></td>
+    <td>NC</td>
+    <td>Republican</td>
+    <td>(202) 224-3154</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.tillis.senate.gov/" target="_blank">Thomas Tillis</a></td>
+    <td>NC</td>
+    <td>Republican</td>
+    <td>(202) 224-6342</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.cramer.senate.gov/" target="_blank">Kevin Cramer</a></td>
+    <td>ND</td>
+    <td>Republican</td>
+    <td>(202) 224-2043</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.hoeven.senate.gov/" target="_blank">John Hoeven</a></td>
+    <td>ND</td>
+    <td>Republican</td>
+    <td>(202) 224-2551</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.fischer.senate.gov/" target="_blank">Deb Fischer</a></td>
+    <td>NE</td>
+    <td>Republican</td>
+    <td>(202) 224-6551</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.ricketts.senate.gov/" target="_blank">Pete Ricketts</a></td>
+    <td>NE</td>
+    <td>Republican</td>
+    <td>(202) 224-4224</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.hassan.senate.gov/" target="_blank">Maggie Hassan</a></td>
+    <td>NH</td>
+    <td>Democratic</td>
+    <td>(202) 224-3324</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.shaheen.senate.gov/" target="_blank">Jeanne Shaheen</a></td>
+    <td>NH</td>
+    <td>Democratic</td>
+    <td>(202) 224-2841</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.booker.senate.gov/" target="_blank">Cory Booker</a></td>
+    <td>NJ</td>
+    <td>Democratic</td>
+    <td>(202) 224-3224</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.kim.senate.gov/" target="_blank">Andy Kim</a></td>
+    <td>NJ</td>
+    <td>Democratic</td>
+    <td>(202) 224-4744</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.heinrich.senate.gov/" target="_blank">Martin Heinrich</a></td>
+    <td>NM</td>
+    <td>Democratic</td>
+    <td>(202) 224-5521</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.lujan.senate.gov/" target="_blank">Ben Lujan</a></td>
+    <td>NM</td>
+    <td>Democratic</td>
+    <td>(202) 224-6621</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.cortezmasto.senate.gov/" target="_blank">Catherine Cortez Masto</a></td>
+    <td>NV</td>
+    <td>Democratic</td>
+    <td>(202) 224-3542</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.rosen.senate.gov/" target="_blank">Jacky Rosen</a></td>
+    <td>NV</td>
+    <td>Democratic</td>
+    <td>(202) 224-6244</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.gillibrand.senate.gov/" target="_blank">Kirsten Gillibrand</a></td>
+    <td>NY</td>
+    <td>Democratic</td>
+    <td>(202) 224-4451</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.schumer.senate.gov/" target="_blank">Charles Schumer</a></td>
+    <td>NY</td>
+    <td>Democratic</td>
+    <td>(202) 224-6542</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.husted.senate.gov/" target="_blank">Jon Husted</a></td>
+    <td>OH</td>
+    <td>Republican</td>
+    <td>(202) 224-3353</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.moreno.senate.gov/" target="_blank">Bernie Moreno</a></td>
+    <td>OH</td>
+    <td>Republican</td>
+    <td>(202) 224-2315</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.lankford.senate.gov/" target="_blank">James Lankford</a></td>
+    <td>OK</td>
+    <td>Republican</td>
+    <td>(202) 224-5754</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.mullin.senate.gov/" target="_blank">Markwayne Mullin</a></td>
+    <td>OK</td>
+    <td>Republican</td>
+    <td>(202) 224-4721</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.merkley.senate.gov/" target="_blank">Jeff Merkley</a></td>
+    <td>OR</td>
+    <td>Democratic</td>
+    <td>(202) 224-3753</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.wyden.senate.gov/" target="_blank">Ron Wyden</a></td>
+    <td>OR</td>
+    <td>Democratic</td>
+    <td>(202) 224-5244</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.fetterman.senate.gov/" target="_blank">John Fetterman</a></td>
+    <td>PA</td>
+    <td>Democratic</td>
+    <td>(202) 224-4254</td>
+  </tr>
+  <tr>
+    <td><a href="https://mccormick.senate.gov/" target="_blank">David McCormick</a></td>
+    <td>PA</td>
+    <td>Republican</td>
+    <td>(202) 224-6324</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.reed.senate.gov/" target="_blank">John Reed</a></td>
+    <td>RI</td>
+    <td>Democratic</td>
+    <td>(202) 224-4642</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.whitehouse.senate.gov/" target="_blank">Sheldon Whitehouse</a></td>
+    <td>RI</td>
+    <td>Democratic</td>
+    <td>(202) 224-2921</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.lgraham.senate.gov/" target="_blank">Lindsey Graham</a></td>
+    <td>SC</td>
+    <td>Republican</td>
+    <td>(202) 224-5972</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.scott.senate.gov/" target="_blank">Tim Scott</a></td>
+    <td>SC</td>
+    <td>Republican</td>
+    <td>(202) 224-6121</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.rounds.senate.gov/" target="_blank">Mike Rounds</a></td>
+    <td>SD</td>
+    <td>Republican</td>
+    <td>(202) 224-5842</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.thune.senate.gov/" target="_blank">John Thune</a></td>
+    <td>SD</td>
+    <td>Republican</td>
+    <td>(202) 224-2321</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.blackburn.senate.gov/" target="_blank">Marsha Blackburn</a></td>
+    <td>TN</td>
+    <td>Republican</td>
+    <td>(202) 224-3344</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.hagerty.senate.gov/" target="_blank">Bill Hagerty</a></td>
+    <td>TN</td>
+    <td>Republican</td>
+    <td>(202) 224-4944</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.cornyn.senate.gov/" target="_blank">John Cornyn</a></td>
+    <td>TX</td>
+    <td>Republican</td>
+    <td>(202) 224-2934</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.cruz.senate.gov/" target="_blank">Ted Cruz</a></td>
+    <td>TX</td>
+    <td>Republican</td>
+    <td>(202) 224-5922</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.curtis.senate.gov/" target="_blank">John Curtis</a></td>
+    <td>UT</td>
+    <td>Republican</td>
+    <td>(202) 224-5251</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.lee.senate.gov/" target="_blank">Mike Lee</a></td>
+    <td>UT</td>
+    <td>Republican</td>
+    <td>(202) 224-5444</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.kaine.senate.gov/" target="_blank">Timothy Kaine</a></td>
+    <td>VA</td>
+    <td>Democratic</td>
+    <td>(202) 224-4024</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.warner.senate.gov/" target="_blank">Mark Warner</a></td>
+    <td>VA</td>
+    <td>Democratic</td>
+    <td>(202) 224-2023</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.sanders.senate.gov/" target="_blank">Bernie Sanders</a></td>
+    <td>VT</td>
+    <td>Independent</td>
+    <td>(202) 224-5141</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.welch.senate.gov/" target="_blank">Peter Welch</a></td>
+    <td>VT</td>
+    <td>Democratic</td>
+    <td>(202) 224-4242</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.cantwell.senate.gov/" target="_blank">Maria Cantwell</a></td>
+    <td>WA</td>
+    <td>Democratic</td>
+    <td>(202) 224-3441</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.murray.senate.gov/" target="_blank">Patty Murray</a></td>
+    <td>WA</td>
+    <td>Democratic</td>
+    <td>(202) 224-2621</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.baldwin.senate.gov/" target="_blank">Tammy Baldwin</a></td>
+    <td>WI</td>
+    <td>Democratic</td>
+    <td>(202) 224-5653</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.ronjohnson.senate.gov/" target="_blank">Ron Johnson</a></td>
+    <td>WI</td>
+    <td>Republican</td>
+    <td>(202) 224-5323</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.capito.senate.gov/" target="_blank">Shelley Capito</a></td>
+    <td>WV</td>
+    <td>Republican</td>
+    <td>(202) 224-6472</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.justice.senate.gov/" target="_blank">James Justice</a></td>
+    <td>WV</td>
+    <td>Republican</td>
+    <td>(202) 224-3954</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.barrasso.senate.gov/" target="_blank">John Barrasso</a></td>
+    <td>WY</td>
+    <td>Republican</td>
+    <td>(202) 224-6441</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.lummis.senate.gov/" target="_blank">Cynthia Lummis</a></td>
+    <td>WY</td>
+    <td>Republican</td>
+    <td>(202) 224-3424</td>
+  </tr>
+    
+    </tbody>
+  </table>
+
+  <footer class="site-footer">
+    <p>© 2025 ScrollCall. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

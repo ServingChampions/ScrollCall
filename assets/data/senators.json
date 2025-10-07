@@ -1,0 +1,859 @@
+{
+  "TEST": [
+    {
+      "name": "Senator Steve",
+      "emails": [
+        "colonelreb@rocketmail.com"
+      ]
+    },
+    {
+      "name": "Senator Mary",
+      "emails": [
+        "test@ussenate.gov"
+      ]
+    }
+  ],
+  "AK": [
+    {
+      "name": "Lisa Murkowski (R)",
+      "emails": [
+        "kaleb_froehlich@murkowski.senate.gov",
+        "anne_mcinerney@murkowski.senate.gov"
+      ]
+    },
+    {
+      "name": "Dan Sullivan (R)",
+      "emails": [
+        "david_pigue@sullivan.senate.gov",
+        "erik_elam@sullivan.senate.gov",
+        "larry_burton@sullivan.senate.gov"
+      ]
+    }
+  ],
+  "AL": [
+    {
+      "name": "Katie Britt (R)",
+      "emails": [
+        "dayne_cutrell@shelby.senate.gov",
+        "clay_armentrout@shelby.senate.gov",
+        "brennan_johnson@shelby.senate.gov",
+        "watson_donald@shelby.senate.gov"
+      ]
+    },
+    {
+      "name": "Tommy Tuberville (R)",
+      "emails": [
+        "bradley_hayes@tuberville.senate.gov",
+        "stephen_boyd@tuberville.senate.gov",
+        "emory_cox@tuberville.senate.gov"
+      ]
+    }
+  ],
+  "AR": [
+    {
+      "name": "John Boozman (R)",
+      "emails": [
+        "mackensie_mckernan@boozman.senate.gov",
+        "toni-marie_higgins@boozman.senate.gov"
+      ]
+    },
+    {
+      "name": "Tom Cotton (R)",
+      "emails": [
+        "aaron_maclean@cotton.senate.gov",
+        "doug_coutts@cotton.senate.gov",
+        "alex_hanson@cotton.senate.gov"
+      ]
+    }
+  ],
+  "AZ": [
+    {
+      "name": "Ruben Gallego (D)",
+      "emails": [
+        "raphael_chavez@gallego.senate.gov"
+      ]
+    },
+    {
+      "name": "Mark Kelly (D)",
+      "emails": [
+        "jennifer_cox@kelly.senate.gov",
+        "katie_campbell@kelly.senate.gov",
+        "jen_cox@kelly.senate.gov"
+      ]
+    }
+  ],
+  "CA": [
+    {
+      "name": "Alex Padilla (D)",
+      "emails": [
+        "joshua_esquivel@padilla.senate.gov",
+        "david_montes@padilla.senate.gov"
+      ]
+    },
+    {
+      "name": "Adam Schiff (D)",
+      "emails": [
+        "patrick_boland@schiff.senate.gov"
+      ]
+    }
+  ],
+  "CO": [
+    {
+      "name": "Michael Bennet (D)",
+      "emails": [
+        "jonathan_davidson@bennet.senate.gov",
+        "charlie_anderson@bennet.senate.gov",
+        "jess_smith@bennet.senate.gov",
+        "kate_connaughton@bennet.senate.gov",
+        "brian_appel@bennet.senate.gov"
+      ]
+    },
+    {
+      "name": "John Hickenlooper (D)",
+      "emails": [
+        "kirtan_mehta@hickenlooper.senate.gov",
+        "katherine_cassling@hickenlooper.senate.gov"
+      ]
+    }
+  ],
+  "CT": [
+    {
+      "name": "Richard Blumenthal (D)",
+      "emails": [
+        "maya_kalonia@blumenthal.senate.gov",
+        "joel_kelsey@blumenthal.senate.gov",
+        "colleen_bell@blumenthal.senate.gov"
+      ]
+    },
+    {
+      "name": "Christopher Murphy (D)",
+      "emails": [
+        "lauren_santabar@murphy.senate.gov",
+        "allison_herwitt@murphy.senate.gov"
+      ]
+    }
+  ],
+  "DE": [
+    {
+      "name": "Lisa Blunt Rochester (D)",
+      "emails": [
+        "lucy_xiao@carper.senate.gov",
+        "emily_spain@carper.senate.gov"
+      ]
+    },
+    {
+      "name": "Christopher Coons (D)",
+      "emails": [
+        "brian_winseck@coons.senate.gov",
+        "shivani_pampati@coons.senate.gov",
+        "jonathan_stahler@coons.senate.gov"
+      ]
+    }
+  ],
+  "FL": [
+    {
+      "name": "Ashley Moody (R)",
+      "emails": [
+        "justin_roth@moody.senate.gov"
+      ]
+    },
+    {
+      "name": "Rick Scott (R)",
+      "emails": [
+        "craig_carbone@rickscott.senate.gov",
+        "jon_foltz@rickscott.senate.gov",
+        "katie_weissert@rickscott.senate.gov"
+      ]
+    }
+  ],
+  "GA": [
+    {
+      "name": "Jon Ossoff (D)",
+      "emails": [
+        "rey_benitez@ossoff.senate.gov"
+      ]
+    },
+    {
+      "name": "Raphael Warnock (D)",
+      "emails": [
+        "josh_delaney@warnock.senate.gov",
+        "mark_libell@warnock.senate.gov"
+      ]
+    }
+  ],
+  "HI": [
+    {
+      "name": "Mazie Hirono (D)",
+      "emails": [
+        "jeremy_horan@hirono.senate.gov",
+        "alan_yamamoto@hirono.senate.gov",
+        "ben_strand@hirono.senate.gov"
+      ]
+    },
+    {
+      "name": "Brian Schatz (D)",
+      "emails": [
+        "arun_revana@schatz.senate.gov",
+        "eric_einhorn@schatz.senate.gov"
+      ]
+    }
+  ],
+  "IA": [
+    {
+      "name": "Joni Ernst (R)",
+      "emails": [
+        "tyler_brown@ernst.senate.gov",
+        "jena_mcneill@ernst.senate.gov",
+        "lisa_goeas@ernst.senate.gov"
+      ]
+    },
+    {
+      "name": "Chuck Grassley (R)",
+      "emails": [
+        "aaron_cummings@grassley.senate.gov",
+        "james_rice@grassley.senate.gov"
+      ]
+    }
+  ],
+  "ID": [
+    {
+      "name": "Mike Crapo (R)",
+      "emails": [
+        "molly_carpenter@crapo.senate.gov",
+        "susan_wheeler@crapo.senate.gov",
+        "john_hoehne@crapo.senate.gov"
+      ]
+    },
+    {
+      "name": "James Risch (R)",
+      "emails": [
+        "john_insinger@risch.senate.gov",
+        "charles_adams@risch.senate.gov",
+        "ryan_white@risch.senate.gov",
+        "celia_glassman@risch.senate.gov"
+      ]
+    }
+  ],
+  "IL": [
+    {
+      "name": "Tammy Duckworth (D)",
+      "emails": [
+        "benjamin_rhodeside@duckworth.senate.gov",
+        "kaitlin_fahey@duckworth.senate.gov",
+        "alex_johnson@duckworth.senate.gov",
+        "kalina_thompson@duckworth.senate.gov"
+      ]
+    },
+    {
+      "name": "Richard Durbin (D)",
+      "emails": [
+        "jasmine_hunt@durbin.senate.gov",
+        "pat_souders@durbin.senate.gov",
+        "james_floyd@durbin.senate.gov"
+      ]
+    }
+  ],
+  "IN": [
+    {
+      "name": "Jim Banks (R)",
+      "emails": [
+        "david_kelly@banks.senate.gov"
+      ]
+    },
+    {
+      "name": "Todd Young (R)",
+      "emails": [
+        "john_connell@young.senate.gov",
+        "lauren_obrien@young.senate.gov"
+      ]
+    }
+  ],
+  "KS": [
+    {
+      "name": "Roger Marshall (R)",
+      "emails": [
+        "brent_robertson@marshall.senate.gov",
+        "pace_mcmullan@marshall.senate.gov"
+      ]
+    },
+    {
+      "name": "Jerry Moran (R)",
+      "emails": [
+        "brennen_britton@moran.senate.gov",
+        "tom_bush@moran.senate.gov",
+        "james_kelly@moran.senate.gov"
+      ]
+    }
+  ],
+  "KY": [
+    {
+      "name": "Mitch McConnell (R)",
+      "emails": [
+        "terry_carmack@mcconnell.senate.gov",
+        "ali_nepola@mcconnell.senate.gov",
+        "katelyn_bunning@mcconnell.senate.gov"
+      ]
+    },
+    {
+      "name": "Rand Paul (R)",
+      "emails": [
+        "william_henderson@paul.senate.gov"
+      ]
+    }
+  ],
+  "LA": [
+    {
+      "name": "Bill Cassidy (R)",
+      "emails": [
+        "katie_hadji@cassidy.senate.gov",
+        "james_quinn@cassidy.senate.gov"
+      ]
+    },
+    {
+      "name": "John Kennedy (R)",
+      "emails": [
+        "david_stokes@kennedy.senate.gov",
+        "natalia_riggin@kennedy.senate.gov",
+        "john_steitz@kennedy.senate.gov"
+      ]
+    }
+  ],
+  "MA": [
+    {
+      "name": "Edward Markey (D)",
+      "emails": [
+        "jeremy_daloisio@markey.senate.gov",
+        "john_walsh@markey.senate.gov",
+        "karlee_popken@markey.senate.gov"
+      ]
+    },
+    {
+      "name": "Elizabeth Warren (D)",
+      "emails": [
+        "jon_donenberg@warren.senate.gov",
+        "beth_pearson@warren.senate.gov"
+      ]
+    }
+  ],
+  "MD": [
+    {
+      "name": "Angela Alsobrooks (D)",
+      "emails": [
+        "joy_russell@alsobrooks.senate.gov"
+      ]
+    },
+    {
+      "name": "Chris Van Hollen (D)",
+      "emails": [
+        "sarah_schenning@vanhollen.senate.gov",
+        "tricia_russell@vanhollen.senate.gov",
+        "harry_stein@vanhollen.senate.gov"
+      ]
+    }
+  ],
+  "ME": [
+    {
+      "name": "Susan Collins (R)",
+      "emails": [
+        "katie_brown@collins.senate.gov",
+        "steve_abbott@collins.senate.gov"
+      ]
+    },
+    {
+      "name": "Angus King (I)",
+      "emails": [
+        "kathleen_connery_dawe@king.senate.gov",
+        "morgan_cashwell@king.senate.gov",
+        "alex_porter@king.senate.gov"
+      ]
+    }
+  ],
+  "MI": [
+    {
+      "name": "Gary Peters (D)",
+      "emails": [
+        "josh_fendrick@peters.senate.gov",
+        "caitlyn_stephenson@peters.senate.gov",
+        "eric_feldman@peters.senate.gov"
+      ]
+    },
+    {
+      "name": "Elissa Slotkin (D)",
+      "emails": [
+        "vernon_baker@stabenow.senate.gov",
+        "emily_carwell@stabenow.senate.gov",
+        "matt_vankuiken@stabenow.senate.gov"
+      ]
+    }
+  ],
+  "MN": [
+    {
+      "name": "Amy Klobuchar (D)",
+      "emails": [
+        "doug_calidas@klobuchar.senate.gov",
+        "elizabeth_peluso@rules.senate.gov"
+      ]
+    },
+    {
+      "name": "Tina Smith (D)",
+      "emails": [
+        "jeff_lomonaco@smith.senate.gov",
+        "tim_everett@smith.senate.gov",
+        "gohar_sedighi@smith.senate.gov"
+      ]
+    }
+  ],
+  "MO": [
+    {
+      "name": "Josh Hawley (R)",
+      "emails": [
+        "eric_teetsel@hawley.senate.gov",
+        "kyle_plotkin@hawley.senate.gov"
+      ]
+    },
+    {
+      "name": "Eric Schmitt (R)",
+      "emails": [
+        "casey_contres@schmitt.senate.gov"
+      ]
+    }
+  ],
+  "MS": [
+    {
+      "name": "Cindy Hyde-Smith (R)",
+      "emails": [
+        "tim_wolverton@hydesmith.senate.gov",
+        "doug_davis@hydesmith.senate.gov",
+        "josh_peaster@hydesmith.senate.gov"
+      ]
+    },
+    {
+      "name": "Roger Wicker (R)",
+      "emails": [
+        "michelle_richardson@wicker.senate.gov",
+        "robert_murray@wicker.senate.gov",
+        "tara_mcgee@wicker.senate.gov"
+      ]
+    }
+  ],
+  "MT": [
+    {
+      "name": "Steve Daines (R)",
+      "emails": [
+        "jason_thielman@daines.senate.gov",
+        "dan_gerig@daines.senate.gov",
+        "pj_austin@daines.senate.gov"
+      ]
+    },
+    {
+      "name": "Tim Sheehy (R)",
+      "emails": [
+        "mike_berg@sheehy.senate.gov"
+      ]
+    }
+  ],
+  "NC": [
+    {
+      "name": "Ted Budd (R)",
+      "emails": [
+        "tucket_knott@budd.senate.gov"
+      ]
+    },
+    {
+      "name": "Thomas Tillis (R)",
+      "emails": [
+        "shil_patel@tillis.senate.gov",
+        "ryan_adam@tillis.senate.gov",
+        "ted_lehman@tillis.senate.gov"
+      ]
+    }
+  ],
+  "ND": [
+    {
+      "name": "Kevin Cramer (R)",
+      "emails": [
+        "jason_stverak@cramer.senate.gov",
+        "mark_gruman@cramer.senate.gov",
+        "micah_chambers@cramer.senate.gov"
+      ]
+    },
+    {
+      "name": "John Hoeven (R)",
+      "emails": [
+        "tyler_hardy@hoeven.senate.gov",
+        "tony_eberhard@hoeven.senate.gov",
+        "daniel_auger@hoeven.senate.gov"
+      ]
+    }
+  ],
+  "NE": [
+    {
+      "name": "Deb Fischer (R)",
+      "emails": [
+        "emily_leviner@fischer.senate.gov",
+        "joe_hack@fischer.senate.gov",
+        "mitch_erdel@fischer.senate.gov"
+      ]
+    },
+    {
+      "name": "Pete Ricketts (R)",
+      "emails": [
+        "amelia_breinig@ricketts.senate.gov"
+      ]
+    }
+  ],
+  "NH": [
+    {
+      "name": "Maggie Hassan (D)",
+      "emails": [
+        "dave_christie@hassan.senate.gov",
+        "jay_weismuller@hassan.senate.gov",
+        "marc_goldberg@hassan.senate.gov",
+        "kelly_boyer@hassan.senate.gov"
+      ]
+    },
+    {
+      "name": "Jeanne Shaheen (D)",
+      "emails": [
+        "robert_henson@shaheen.senate.gov",
+        "ariel_marshall@shaheen.senate.gov",
+        "chad_kreikemeier@shaheen.senate.gov"
+      ]
+    }
+  ],
+  "NJ": [
+    {
+      "name": "Cory Booker (D)",
+      "emails": [
+        "matt_klapper@booker.senate.gov",
+        "veronica_duron@booker.senate.gov"
+      ]
+    },
+    {
+      "name": "Andy Kim (D)",
+      "emails": [
+        "amy_pfeiffer@kim.senate.gov"
+      ]
+    }
+  ],
+  "NM": [
+    {
+      "name": "Martin Heinrich (D)",
+      "emails": [
+        "dominic_saavedra@heinrich.senate.gov",
+        "rebecca_avitia@heinrich.senate.gov",
+        "simon_boyce@heinrich.senate.gov"
+      ]
+    },
+    {
+      "name": "Ben Lujan (D)",
+      "emails": [
+        "carlos_sanchez@lujan.senate.gov",
+        "graham_mason@lujan.senate.gov"
+      ]
+    }
+  ],
+  "NV": [
+    {
+      "name": "Catherine Cortez Masto (D)",
+      "emails": [
+        "scott_fairchild@cortezmasto.senate.gov",
+        "reynaldo_benitez@cortezmasto.senate.gov",
+        "joleen_rivera@cortezmasto.senate.gov",
+        "bridget_kelleher@cortezmasto.senate.gov"
+      ]
+    },
+    {
+      "name": "Jacky Rosen (D)",
+      "emails": [
+        "grant_dubler@rosen.senate.gov",
+        "dara_cohen@rosen.senate.gov",
+        "alejandro_renteria@rosen.senate.gov"
+      ]
+    }
+  ],
+  "NY": [
+    {
+      "name": "Kirsten Gillibrand (D)",
+      "emails": [
+        "brooke_jamison@gillibrand.senate.gov",
+        "jess_fassler@gillibrand.senate.gov",
+        "keith_castaldo@gillibrand.senate.gov"
+      ]
+    },
+    {
+      "name": "Charles Schumer (D)",
+      "emails": [
+        "meghan_taira@schumer.senate.gov",
+        "mike_lynch@schumer.senate.gov"
+      ]
+    }
+  ],
+  "OH": [
+    {
+      "name": "Jon Husted (R)",
+      "emails": [
+        "Rebecca_angleson@husted.senate.gov"
+      ]
+    },
+    {
+      "name": "Bernie Moreno (R)",
+      "emails": [
+        "phil_letsou@moreno.senate.gov"
+      ]
+    }
+  ],
+  "OK": [
+    {
+      "name": "James Lankford (R)",
+      "emails": [
+        "erica_stephens@lankford.senate.gov",
+        "julia_prus@lankford.senate.gov",
+        "sarah_seitz@lankford.senate.gov",
+        "michelle_altman@lankford.senate.gov"
+      ]
+    },
+    {
+      "name": "Markwayne Mullin (R)",
+      "emails": [
+        "dave_natonski@mullin.senate.gov"
+      ]
+    }
+  ],
+  "OR": [
+    {
+      "name": "Jeff Merkley (D)",
+      "emails": [
+        "elvia_montoya@merkley.senate.gov",
+        "michael_zamore@merkley.senate.gov",
+        "allison_hunn@merkley.senate.gov"
+      ]
+    },
+    {
+      "name": "Ron Wyden (D)",
+      "emails": [
+        "isaiah_akin@wyden.senate.gov",
+        "nicole_lesperance@wyden.senate.gov",
+        "rachel_lang@wyden.senate.gov",
+        "emily_zahnle-hostetler@wyden.senate.gov",
+        "jeff_michels@wyden.senate.gov"
+      ]
+    }
+  ],
+  "PA": [
+    {
+      "name": "John Fetterman (D)",
+      "emails": [
+        "krysta_juris@fetterman.senate.gov"
+      ]
+    },
+    {
+      "name": "David McCormick (R)",
+      "emails": [
+        "mark_isakowitz@mccormick.senate.gov"
+      ]
+    }
+  ],
+  "RI": [
+    {
+      "name": "John Reed (D)",
+      "emails": [
+        "renuka_nagaraj@reed.senate.gov",
+        "elyse_wasch@reed.senate.gov",
+        "neil_campbell@reed.senate.gov"
+      ]
+    },
+    {
+      "name": "Sheldon Whitehouse (D)",
+      "emails": [
+        "nick_myers@lgraham.senate.gov",
+        "richard_perry@lgraham.senate.gov"
+      ]
+    }
+  ],
+  "SC": [
+    {
+      "name": "Lindsey Graham (R)",
+      "emails": [
+        "emily_lavery@scott.senate.gov",
+        "jennifer_decasper@scott.senate.gov",
+        "chuck_cogar@scott.senate.gov"
+      ]
+    },
+    {
+      "name": "Tim Scott (R)",
+      "emails": [
+        "andrew_rothe@rounds.senate.gov",
+        "rob_skjonsberg@rounds.senate.gov",
+        "kyle_chase@rounds.senate.gov"
+      ]
+    }
+  ],
+  "SD": [
+    {
+      "name": "Mike Rounds (R)",
+      "emails": [
+        "Dezmond_ward@rounds.senate.gov"
+      ]
+    },
+    {
+      "name": "John Thune (R)",
+      "emails": [
+        "ryan_nelson@thune.senate.gov",
+        "jessica_mcbride@thune.senate.gov"
+      ]
+    }
+  ],
+  "TN": [
+    {
+      "name": "Marsha Blackburn (R)",
+      "emails": [
+        "charles_flint@blackburn.senate.gov",
+        "sean_farrell@blackburn.senate.gov"
+      ]
+    },
+    {
+      "name": "Bill Hagerty (R)",
+      "emails": [
+        "john_rader@hagerty.senate.gov"
+      ]
+    }
+  ],
+  "TX": [
+    {
+      "name": "John Cornyn (R)",
+      "emails": [
+        "beth_jafari@cornyn.senate.gov",
+        "stephen_tausend@judiciary-rep.senate.gov",
+        "andrew_siracuse@cornyn.senate.gov"
+      ]
+    },
+    {
+      "name": "Ted Cruz (R)",
+      "emails": [
+        "chris_jaarda@cruz.senate.gov",
+        "steve_chartan@cruz.senate.gov"
+      ]
+    }
+  ],
+  "UT": [
+    {
+      "name": "John Curtis (R)",
+      "emails": [
+        "corey_norman@curtis.senate.gov"
+      ]
+    },
+    {
+      "name": "Mike Lee (R)",
+      "emails": [
+        "allyson_bell@lee.senate.gov",
+        "john_shelton@lee.senate.gov",
+        "christy_woodruff@lee.senate.gov"
+      ]
+    }
+  ],
+  "VA": [
+    {
+      "name": "Timothy Kaine (D)",
+      "emails": [
+        "paul_lapointe@kaine.senate.gov",
+        "mjh@kaine.senate.gov",
+        "nick_barbash@kaine.senate.gov"
+      ]
+    },
+    {
+      "name": "Mark Warner (D)",
+      "emails": [
+        "craig_radcliffe@warner.senate.gov",
+        "sebastien_lasseur@warner.senate.gov",
+        "lauren_marshall@warner.senate.gov",
+        "elizabeth_falcone@warner.senate.gov"
+      ]
+    }
+  ],
+  "VT": [
+    {
+      "name": "Bernie Sanders (I)",
+      "emails": [
+        "misty_rebik@sanders.senate.gov",
+        "liam_fagan@sanders.senate.gov",
+        "ari_rabin-havt@sanders.senate.gov"
+      ]
+    },
+    {
+      "name": "Peter Welch (D)",
+      "emails": [
+        "alexandra_golden@welch.senate.gov"
+      ]
+    }
+  ],
+  "WA": [
+    {
+      "name": "Maria Cantwell (D)",
+      "emails": [
+        "david_marten@cantwell.senate.gov",
+        "lara_muldoon@cantwell.senate.gov",
+        "jami_burgess@cantwell.senate.gov"
+      ]
+    },
+    {
+      "name": "Patty Murray (D)",
+      "emails": [
+        "mindi_linquist@murray.senate.gov",
+        "zach_mallove@murray.senate.gov",
+        "ben_merkel@murray.senate.gov"
+      ]
+    }
+  ],
+  "WI": [
+    {
+      "name": "Tammy Baldwin (D)",
+      "emails": [
+        "ken_reidy@baldwin.senate.gov",
+        "dan_mccarthy@baldwin.senate.gov",
+        "meghan_ladwig@baldwin.senate.gov"
+      ]
+    },
+    {
+      "name": "Ron Johnson (R)",
+      "emails": [
+        "patrick_mcilheran@ronjohnson.senate.gov",
+        "alexis_alber@ronjohnson.senate.gov",
+        "sean_riley@ronjohnson.senate.gov",
+        "courtney_rutland@ronjohnson.senate.gov"
+      ]
+    }
+  ],
+  "WV": [
+    {
+      "name": "Shelley Capito (R)",
+      "emails": [
+        "joel_brubaker@capito.senate.gov",
+        "jt_jezierski@capito.senate.gov"
+      ]
+    },
+    {
+      "name": "James Justice (R)",
+      "emails": [
+        "brian_abraham@justice.senate.gov"
+      ]
+    }
+  ],
+  "WY": [
+    {
+      "name": "John Barrasso (R)",
+      "emails": [
+        "jr_kane@barrasso.senate.gov",
+        "dan_kunsman@barrasso.senate.gov",
+        "bryn_stewart@barrasso.senate.gov"
+      ]
+    },
+    {
+      "name": "Cynthia Lummis (R)",
+      "emails": [
+        "darrin_munoz@lummis.senate.gov",
+        "kristin_walker@lummis.senate.gov"
+      ]
+    }
+  ]
+}

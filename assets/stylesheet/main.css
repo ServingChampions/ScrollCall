@@ -1,0 +1,778 @@
+/* 
+Colors:
+
+*/
+
+/******************************************
+  /* Reset
+  /*******************************************/
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  /* Modern base reset extension */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+  
+  /*
+    ========================================
+  Custom Style
+    ========================================
+  */
+  
+  body {
+    background: whitesmoke;
+    color: black;
+    margin: 0 .5px;
+  }
+  
+  h1 {
+    font-size: 35px;
+    color: black
+  }
+
+  h2, h3, h4, h5 {
+    font-size: 30px;
+  }
+  
+
+  p {
+    font-size: 15px;
+    font-weight: 381;
+    padding: 5px 0;
+    color: black
+  }
+
+
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid #ddd;
+  padding: 1.5rem 1rem;
+}
+
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+/* Hamburger Menu Button */
+.nav-toggle {
+  font-size: 2rem;
+  color: var(--blue, #0047ab);  /* or use 'black' if preferred */
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 1000;
+}
+
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  border-top: 1px solid #eee;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--blue, #0047ab);
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: var(--red, #cc0000);
+}
+
+
+@media (max-width: 768px) {
+  .header-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-toggle {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    color: var(--blue); /* or black */
+    position: static; /* IMPORTANT: overrides the absolute positioning */
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+
+
+
+
+
+
+
+  
+  /* SC Footer */
+  .sc-footer {
+    text-align: right;
+    font-size: 12px;
+    color: #555;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  
+  .sc-footer a {
+    color: #024C30;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .sc-footer a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .sc-footer a:hover {
+    color: #0056b3;
+  }
+
+
+
+
+
+
+
+
+  :root {
+  --blue: #1E3A8A;     /* Deep navy blue */
+  --red: #B91C1C;      /* Strong red */
+  --gold: #D4AF37;     /* Soft gold accent */
+  --gray: #F3F4F6;     /* Background gray */
+  --text: #111827;     /* Deep gray text */
+  --white: #FFFFFF;
+  --font-main: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--gray);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+.site-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  height: 150px;
+}
+
+.content {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.bill-card h1 {
+  color: var(--blue);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.bill-card p {
+  margin: 0.5rem 0;
+}
+
+.bill-divider {
+  border-bottom: 2px solid red;
+  margin: 2rem -1rem;
+}
+
+
+
+/*
+.bill-card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 1px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+*/
+
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* adds space between buttons */
+}
+
+
+button {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--red);
+}
+
+.smart-compose {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.ai-toggle-btn,
+.ai-generate-btn,
+.copy-message-btn {
+  background-color: var(--blue);
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.ai-toggle-btn {
+  background-color: green;
+}
+
+.ai-input-container {
+  margin-top: 1rem;
+}
+
+#ai-reasons {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.ai-result-container {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+.ai-message-preview {
+  white-space: pre-wrap;
+  margin: 0.5rem 0;
+  font-family: Georgia, serif;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.zip-input {
+  margin-top: 1rem;
+}
+
+.zip-input.hidden {
+  display: none;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 60%;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+}
+
+.site-footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.about {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.about h2 {
+  color: var(--red);
+  margin-bottom: 0.5rem;
+}
+
+.bill-thumbnail {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.details-toggle {
+  margin: 1.5rem auto 0 auto;
+  display: block;
+  background-color: var(--gold);
+  color: var(--text);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+}
+
+.details {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.details.hidden {
+  display: none;
+}
+
+.bill-perspectives {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1.5rem;
+}
+
+.bill-perspectives h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--blue);
+  text-align: center;
+}
+
+.bill-perspectives h4 {
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem;
+  color: var(--text);
+}
+
+.bill-perspectives ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.bill-perspectives li {
+  margin-bottom: 0.5rem;
+}
+
+.disclaimer {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 1rem;
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  line-height: 1.4;
+}
+
+
+.section-divider {
+  margin: 4rem auto 2rem auto;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--blue);
+  max-width: 600px;
+}
+
+.section-divider h2 {
+  color: var(--blue);
+  font-size: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.section-divider p {
+  font-size: 1rem;
+  color: #444;
+}
+
+
+.state-select {
+  margin-top: 1rem;
+    display: flex;
+  justify-content: center;
+}
+.state-select select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+}
+.senators {
+  margin-top: 1rem;
+}
+.senator {
+  background-color: var(--gray);
+  padding: 1rem;
+  border-radius: 0.375rem;
+  margin-bottom: 0.5rem;
+}
+.senator button {
+  background-color: var(--blue);
+  margin-top: 0.5rem;
+}
+
+.section-divider {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.section-divider h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-divider p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.bill-filter {
+  margin: 0 auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bill-filter label {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#bill-filter-dropdown {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: border-color 0.2s ease;
+}
+
+#bill-filter-dropdown:focus {
+  outline: none;
+  border-color: #28a745; /* Match your green theme */
+}
+
+
+#email-modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#email-modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.modal-content button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+
+  /*
+    ========================================
+    Reps Page
+    ========================================
+  */
+
+  .floating-search {
+  max-width: 600px;
+  margin: 40px auto 20px;
+  text-align: center;
+}
+
+.floating-search input {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.floating-search input:focus {
+  border-color: #4a90e2;
+}
+
+
+  .rep-preview-section {
+  padding: 1rem 1rem;
+  border-top: 2px solid #ddd;
+}
+
+.rep-preview-header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.rep-preview-subtext {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.RepsHeader {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+  
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  font-family: sans-serif;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f0f8ff;
+}
+
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+
+  td {
+    padding: 0.5rem;
+    border: none;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.25rem;
+    color: #555;
+  }
+}
+
+
+
+  /*
+    ========================================
+    Bills Page
+    ========================================
+  */
+
+.bill-card {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.bill-card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.bill-card p {
+  margin: 0.5rem 0;
+}
+
+.upvote-btn {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upvote-btn:hover {
+  background-color: #004a99;
+}
+
+.vote-count {
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+
+.site-intro {
+  background-color: #f9f9f9;
+  border-left: 4px solid #0066cc;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.site-intro h2 {
+  margin-top: 0;
+  color: var(--red);
+  display: flex;
+  justify-content: center;
+}
+
+.site-intro p {
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.site-intro a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.site-intro strong {
+  color: #333;
+}
+
+
+
+@media (min-width: 640px) {
+  .bill-vote-card {
+    flex-direction: row;
+  }
+
+  .bill-image {
+    width: 40%;
+    height: 100%;
+  }
+
+  .bill-info {
+    width: 60%;
+  }
+}
