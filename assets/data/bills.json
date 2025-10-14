@@ -1,5 +1,26 @@
 [
   {
+    "id": "s1260",
+    "imageSrc": "https://media.istockphoto.com/id/1325479189/photo/a-beautiful-and-idyllic-rural-american-farm-house-with-a-red-barn.jpg?s=612x612&w=0&k=20&c=0sZqtGxyh_g_C59a_i2vytpd6Wf2q3D_PT9j9-CoH4k=",
+    "title": "S.1260 – Rural Housing Service Reform Act of 2025",
+    "summary": "A comprehensive bill to modernize the USDA's Rural Housing Service (RHS), preserve at-risk affordable rental housing, and expand homeownership opportunities in rural communities.",
+    "status": "Referred to Senate Committee on Banking, Housing, and Urban Affairs.",
+    "sponsor": "Sen. Tina Smith (D-MN)",
+    "details": "Senate Bill 1260, The Rural Housing Service Reform Act of 2025, is a Bipartisan Bill to Address the Rural Housing Crisis. Between 2010 and 2020, the number of rural housing units increased by only 1.7%, leaving many communities with a severe shortage of affordable housing options. The federal agency designed to help is often hampered by outdated rules and technology.This bill modernizes the USDA's Rural Housing Service (RHS) to preserve affordable housing, improve government efficiency, and expand access to homeownership. It is sponsored by Sen. Tina Smith (D-MN) and has strong bipartisan support with 6 Republican cosponsors.\n\nThe 40 page bill aims to preserve at-risk affordable housing by establishing a new program with an 'early warning system' for properties whose affordable mortgages are maturing. It provides flexible financing and 20-year rental assistance contracts to convince owners to keep their properties affordable.The bill dramatically increases the financial return for owners who sell their properties to a mission-driven nonprofit, raising the cap from 9% to 50% of the property's equity to keep more units in community hands.\n\nThe bill authorizes crucial funding for new staff and major IT upgrades to improve service and efficiency over the course of 5 years while also requiring annual public 'report cards' on program health and loan performance. It also sets a 90-day goal for application decisions and requires the agency to publicly justify any delays.\n\nThe final theme of the solution is to expand home ownership and access by doubling the maximum grant (to $15,000) for the popular Section 504 program, helping low-income seniors make critical home repairs to age in place safely.The bill also creates a new $50 million/year program that empowers local Native-run financial institutions (CDFIs) to provide culturally competent home loans directly on tribal lands. By allowing homeowners to use rental income from Accessory Dwelling Units (ADUs) to qualify for a loan, this will help to make ownership more affordable while increasing the rural housing supply. The bill strengthens the voucher safety net by making the rural housing voucher more responsive to families' needs (like a job loss) and expands eligibility to protect more tenants from displacement.\n\nFinancially, the bill explicitly authorizes or sets aside over $1.25 billion over five years for its key initiatives, primarily for the new housing preservation program and the Native CDFI relending program. While this top-line figure does not include the ultimate cost of critical investments in new staff, IT upgrades, and community development grants, the combined financial commitments and policy reforms represent a comprehensive strategy. Ultimately, it's a plan to revitalize a vital federal agency and provide rural communities with the stability and resources they need to grow and thrive.",
+    "pros": [
+      "Broad bipartisan support and endorsed by both the mortgage industry (MBA) and housing advocates (NLIHC).",
+      "Provides comprehensive, targeted solutions for seniors, Native communities, and low-income families.",
+      "Builds long-term local capacity through programs like the Native CDFI initiative, not just short-term aid.",
+      "Focuses on 'good government' by improving agency efficiency, transparency, and accountability."
+    ],
+    "cons": [
+      "Authorizes over $1.25 billion and leaves other major costs (staffing, IT) open-ended, representing a significant financial commitment.",
+      "Funding is only authorized and must be appropriated by Congress each year to be effective, creating uncertainty.",
+      "Poses a significant implementation risk, as the bill gives many new responsibilities to an agency it admits is understaffed and technologically outdated.",
+      "Could be viewed as a 'band-aid' that doesn't address the root economic causes of rural housing decline, such as a lack of jobs."
+    ]
+  },
+  {
     "id": "s1467",
     "imageSrc": "https://media.istockphoto.com/id/1092276718/photo/half-opened-door-into-the-cozy-home-interior.jpg?s=612x612&w=0&k=20&c=h-AE8UJt-xndL7byvCPZrVObWUc0nOzdLkEICYdzm7c=",
     "title": "S.1467 – Homebuyers Privacy Protection Act",
@@ -48,8 +69,14 @@
     "status": "Introduced in Senate",
     "sponsor": "Sen. Todd Young (R-IN)",
     "details": "COMING SOON",
-    "pros": ["COMING SOON", "COMING SOON"],
-    "cons": ["COMING SOON", "COMING SOON"]
+    "pros": [
+      "COMING SOON",
+      "COMING SOON"
+    ],
+    "cons": [
+      "COMING SOON",
+      "COMING SOON"
+    ]
   },
   {
     "id": "s1561",
@@ -59,8 +86,14 @@
     "status": "Introduced in Senate",
     "sponsor": "Sen. Kevin Cramer (R-ND)",
     "details": "COMING SOON",
-    "pros": ["COMING SOON", "COMING SOON"],
-    "cons": ["COMING SOON", "COMING SOON"]
+    "pros": [
+      "COMING SOON",
+      "COMING SOON"
+    ],
+    "cons": [
+      "COMING SOON",
+      "COMING SOON"
+    ]
   },
   {
     "id": "s1527",
@@ -70,7 +103,12 @@
     "status": "As of June 29, 2025, the bill was introduced and referred to the Committee on Banking, Housing, and Urban Affairs.",
     "sponsor": "Sen. Ruben Gallego [D-AZ]",
     "details": "This bill modifies the multifamily loan limits under the National Housing Act. Currently in early stages.",
-    "pros": ["Endorsed by Mortgage Banking Association", "More details pending research"],
-    "cons": ["Research coming soon"]
+    "pros": [
+      "Endorsed by Mortgage Banking Association",
+      "More details pending research"
+    ],
+    "cons": [
+      "Research coming soon"
+    ]
   }
 ]
