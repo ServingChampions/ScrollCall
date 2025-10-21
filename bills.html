@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ScrollCall</title>
+  <title>ScrollCall - Senate Bill Feed</title>
   <meta name="description" content="View active Senate bills and take civic action.">
   <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="assets/stylesheet/main.css">
@@ -15,11 +15,7 @@
 <header class="site-header">
   <div class="header-inner">
     <img src="assets/logo.png" alt="ScrollCall Logo" class="logo">
-
-    <!-- Hamburger icon BELOW the logo -->
     <div id="menu-toggle" class="nav-toggle">&#9776;</div>
-
-    <!-- Nav menu -->
     <nav class="nav-links" id="nav-menu">
       <a href="index.html">Home</a>
       <a href="representatives.html">Your Representatives</a>
@@ -36,49 +32,28 @@
   <p>
     Use the dropdown filters to browse bills by <strong>committee</strong> or <strong>status</strong>. If a bill interests you, click the <strong>upvote</strong> button. Your votes help us determine which bills should be featured on our homepage for full analysis.
   </p>
-  <p>
-    Featured bills on the homepage will include plain-language summaries, arguments for and against, and tools to help you directly contact your senator’s office.
-  </p>
 </section>
 
-
 <section class="filters">
-<p>Filter by:</p>
-<select id="committee-filter"></select>
-<select id="status-filter"></select>
-<div id="bills-list"></div>
-<button id="load-more">Load More Bills</button>
+  <p>Filter by:</p>
+  <select id="committee-filter"></select>
+  <select id="status-filter"></select>
 </section>
 
 <div id="bills-list"></div>
 
 <button id="load-more" style="display:none">Load More Bills</button>
 
-<section>
-<button onclick="clearVotes()">🚨 Reset All Votes</button>
+<section class="reset-section">
+  <button onclick="clearVotes()">🚨 Reset All Votes</button>
 </section>
 
+<footer class="site-footer">
+  <p>© 2025 ScrollCall. All rights reserved.</p>
+</footer>
 
-
-
-<div id="bills-container">
-  <ul id="bills-list"></ul>
-</div>
-
-
-
-
-
-  <footer class="site-footer">
-    <p>© 2025 ScrollCall. All rights reserved.</p>
-  </footer>
-
-<!-- ✅ Firebase App (Browser Safe) -->
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-
-<!-- ✅ Firebase Realtime Database -->
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
-
 <script>
   const firebaseConfig = {
     apiKey: "AIzaSyBNwqJ2eYJAMd348ureiKyiZ7M1zFI_GUE",
@@ -89,13 +64,9 @@
     appId: "1:415146001306:web:8975fd60fa8c614896f023",
     databaseURL: "https://scrollcall-votes-default-rtdb.firebaseio.com"
   };
-
-  // ✅ Works in plain HTML
   firebase.initializeApp(firebaseConfig);
 </script>
 
-
-
-  <script src="main.js"></script>
+<script src="bill-feed.js"></script>
 </body>
 </html>
