@@ -1,5 +1,26 @@
 [
   {
+    "id": "s1527",
+    "imageSrc": "https://as2.ftcdn.net/v2/jpg/17/78/21/33/1000_F_1778213324_2JuWMcJQ5aVwTJWK1JzrWR74yTL6qUxE.jpg",
+    "title": "S.1527 – Housing Affordability Act",
+    "summary": "A bill to amend the National Housing Act to increase the statutory dollar limits for FHA-insured multifamily housing loans . The bill also changes the metric for future annual adjustments, tying them to the 'Price Deflator Index' of Multifamily Residential Units Under Construction",
+    "status": "Senate - 04/30/2025 Read twice and referred to the Committee on Banking, Housing, and Urban Affair",
+    "sponsor": "Sen. Ruben Gallego [D-AZ]",
+    "details": "S. 1527, the Housing Affordability Act, is a bipartisan bill aimed at increasing the supply of multifamily housing (like apartments, condos, and senior housing) by updating obsolete federal loan insurance limits. The bill targets Title II of the National Housing Act, a law that allows the Federal Housing Administration (FHA) to insure loans for developers. The FHA does not issue the loans, but its insurance protects banks from default. The problem is that these insurance limits have not been updated since 2003. Because construction costs have increased substantially, today's project costs (e.g., $200,000 per unit) far exceed the FHA's outdated limits (e.g., $40,220 per unit). This makes the insurance less impactful, causing banks to deny loans and preventing new housing from being built. \n\n The bill proposes two key solutions. First, it's a simple find and replace, striking all the 2003 dollar amounts in the law and inserting new, higher limits that reflect modern construction costs. This is designed to make development projects financially viable, unlocking private bank lending. Second, the bill future-proofs these limits by changing the inflation formula. It scraps the use of the Consumer Price Index (CPI) and replaces it with the more specific Price Deflator Index, which only tracks the cost of multifamily construction materials and labor, ensuring the limits increase yearly based on this metric. \n\n These updates apply to a range of critical housing programs, including those for standard apartments (Sec. 207), housing cooperatives (Sec. 213), low-income housing (Sec. 221), and senior housing (Sec. 231). Supporters argue this is a common-sense fix that leverages private capital to build more homes. Critics caution that it may fuel inflation by allowing builders to charge more, or that it increases taxpayer risk by insuring larger loans without solving the root causes of the housing crisis, like restrictive local zoning laws.",
+    "pros": [
+      "This bill has bipartisan sponsors (Democratic and Republican) and is endorsed by major industry groups like the Mortgage Bankers Association (MBA).",
+      "By updating the obsolete 2003 insurance limits, this bill reduces the risk for banks, which in turn is expected to unlock billions in private-sector construction loans that are currently stuck on the sidelines.",
+      "The primary goal is to make it financially possible for developers to build in need multifamily housing (apartments, condos, etc.). This bill specifically updates programs for key areas of need, including senior housing (Sec. 231) and low/moderate-income housing (Sec. 221).",
+      "The bill fixes the problem in the future by tying future increases to a more accurate, construction-specific inflation index. This prevents the limits from ever becoming obsolete again."
+    ],
+    "cons": [
+      "This action could fuel construction-cost inflation. By increasing the financing available (demand) without instantly increasing the supply of labor or materials, it could simply allow developers and builders to charge more for the same projects, passing the costs on to renters.",
+      "This bill increases the risk to the FHA's insurance fund, which is ultimately backed by taxpayers. By providing government insurance for much larger loans, critics argue it creates a 'moral hazard,' lenders may perform less stringent due diligence, knowing they are protected from losses if a high-risk project defaults.",
+      "It ties future loan limits to a new, less-transparent inflation index (the Price Deflator Index) instead of the universally-scrutinized CPI. This 'autopilot' adjustment removes future congressional oversight and could cause loan limits to rise excessively based on a volatile, niche metric.",
+      "This bill addresses the symptoms (lack of financing) but not the root cause of the housing crisis. It does nothing to solve the underlying issues that make construction expensive in the first place, such as restrictive local zoning laws, labor shortages, and high material costs."
+    ]
+  },
+  {
     "id": "s1260",
     "imageSrc": "https://media.istockphoto.com/id/1739442291/photo/looking-down-a-country-road-lined-with-fields-and-a-white-farmhouse-on-a-calm-evening.jpg?s=2048x2048&w=is&k=20&c=X8l7iw5dUNIEWqTuk5FuqjBeHupnqsXh8u7y7zR5yc4=",
     "title": "S.1260 – Rural Housing Service Reform Act of 2025",
@@ -95,21 +116,4 @@
       "COMING SOON"
     ]
   },
-  {
-    "id": "s1527",
-    "imageSrc": "assets/sb2.jpg",
-    "title": "S.1527 – Housing Affordability Act",
-    "summary": "This bill proposes to modify the multifamily loan limits under title II of the National Housing Act.",
-    "status": "As of June 29, 2025, the bill was introduced and referred to the Committee on Banking, Housing, and Urban Affairs.",
-    "sponsor": "Sen. Ruben Gallego [D-AZ]",
-    "details": "This bill modifies the multifamily loan limits under the National Housing Act. Currently in early stages.",
-    "pros": [
-      "Endorsed by Mortgage Banking Association",
-      "More details pending research"
-    ],
-    "cons": [
-      "Research coming soon"
-    ]
-  }
 ]
-
